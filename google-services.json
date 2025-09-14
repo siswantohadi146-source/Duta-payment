@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "789545210484",
+    "project_id": "duta-6d0e6",
+    "storage_bucket": "duta-6d0e6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789545210484:android:ae343b2f41bc33d3483721",
+        "android_client_info": {
+          "package_name": "com.dutapayment.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789545210484-imemacolrhlskvfk4rb11a84qd80irpf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhKGw9oJoeJfY8oFCJ22uy-XSMl3Rz95s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "789545210484-imemacolrhlskvfk4rb11a84qd80irpf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
