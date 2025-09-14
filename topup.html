@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top Up Member</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background: #f7f7f7; }
+    h2 { text-align: center; margin-bottom: 20px; color: #333; }
+    .methods { display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; }
+    .method {
+      background: #fff; padding: 15px; border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1); width: 140px; text-align: center;
+      cursor: pointer; transition: 0.3s;
+    }
+    .method:hover { transform: translateY(-3px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+    .method img { width: 70px; height: 70px; border-radius: 50%; object-fit: cover; margin-bottom: 10px; }
+  </style>
+</head>
+<body>
+
+<h2>Pilih Metode Pembayaran</h2>
+<div class="methods">
+  <div class="method" onclick="alert('Rekening BNI: 1234567890 a.n PT. Solusindo')">
+    <img src="https://images.bukaolshop.com/hosting/176095/28b4e9ebd059395060.png" alt="BNI">
+    <p>BNI</p>
+  </div>
+  <div class="method" onclick="alert('Rekening Mandiri: 9876543210 a.n Hadi Siswanto')">
+    <img src="https://images.bukaolshop.com/hosting/176095/46729e938c8c676011.png" alt="Mandiri">
+    <p>Mandiri</p>
+  </div>
+  <div class="method" onclick="alert('Rekening BRI: 5432167890 a.n Hadi Siswanto')">
+    <img src="https://images.bukaolshop.com/hosting/176095/9d8a905da687842635.png" alt="BRI">
+    <p>BRI</p>
+  </div>
+  <div class="method" onclick="alert('Scan QRIS untuk pembayaran')">
+    <img src="https://images.bukaolshop.com/hosting/176095/945c0ec8fca9909235.png" alt="QRIS">
+    <p>QRIS</p>
+  </div>
+</div>
+
+</body>
+</html>
